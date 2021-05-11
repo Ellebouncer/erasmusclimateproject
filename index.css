@@ -1,67 +1,62 @@
 @media (max-width: 1200px) {
-    .footer {
-        margin-top: 5vh;
-    }
+
 }
 @media (max-width: 800px) {
-    .footer {
-        margin-top: 0vh;
-    }
     .newsheader {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     .newstext {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
     }
     .newslink {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
     }
     
 }
 @media (max-width: 460px) {
     .footer {
-        margin-top: 0vh;
+        margin-top: 10vh;
     }
     .menualts {
-        font-size: 4vw;
+        font-size: 2vw;
     }
     .newsheader {
-        font-size: 4.5vw;
+        font-size: 3vw;
     }
     .newstext {
-        font-size: 3vw;
+        font-size: 1.5vw;
     }
     .newslink {
-        font-size: 3vw;
+        font-size: 1.5vw;
     }
 }
 @media (max-width: 400px) {
     .footer {
-        margin-top: 10vh;
+        margin-top: 25vh;
     }
 }
 
 @media (max-width: 350px) {
     .footer {
-        margin-top: 35vh;
+        margin-top: 40vh;
     }
 }
 
 
 @media (min-height: 730px) {
     .footer {
-        margin-top: 30vh;
+        margin-top: 40vh;
     }
     .menualts {
-        font-size: 3.5vw;
+        font-size: 2vw;
     }
     .newsheader {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     .newstext {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
     }
     .newslink {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
     }
 }

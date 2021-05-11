@@ -13,28 +13,24 @@
     background-color: #234278;
     background-image: url(./headerpicture.png);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 70%;
 }
-.menulogo {
-    width: 100%;
-    padding-top: 10%;
-    padding-left: 10%;
-}
+
 .title {
     text-align: center;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 5vw;
+    font-size: 3.5vw;
     margin: 0%;
     padding-top: 1%;
     color: #f0f4f8;
 }
 .space1 {
-    padding-top: 3%;
+    padding-top: 1%;
     margin: 0;
 }
 .menualts {
     text-align: center;
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: 'JetBrains Mono', monospace;
     padding-left: 2%;
 }
@@ -83,7 +79,13 @@
 }
 .newsheader {
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 3vw;
+    color: #f0f4f8;
+    margin: 0%;
+}
+.newsheadersmall {
+    text-align: center;
+    font-size: 2vw;
     color: #f0f4f8;
     margin: 0%;
 }
@@ -92,9 +94,8 @@
     margin-left: 2%;
     margin-right: 5%;
     margin-top: 1%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: #f0f4f8;
-
 }
 .newslink {
     text-align: left;
@@ -117,13 +118,14 @@
     position: static;
     left: 0;
     bottom: 0;
+    margin-top: 2vh;
 }
 .footerimage {
     text-align: center;
 }
 .creditimage {
     margin-top: 2%;
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -131,10 +133,10 @@
 .table {
     margin-left: auto;
     margin-right: auto;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: #f0f4f8;
     text-decoration: none;
-    width: 85%;
+    width: 75%;
     font-family: 'JetBrains Mono', monospace;
 }
 .th {
