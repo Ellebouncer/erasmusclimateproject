@@ -55,7 +55,9 @@
 }
 .newscontainer {
     background-color: #ebebeb;
-    margin: 2%;
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     font-family: Publik,Helvetica,Arial,"Nimbus Sans L","Bitstream Vera Sans",sans-serif;
 }
 .space3 {
@@ -109,6 +111,12 @@
     font-size: 1.5vw;
     color: black;
     text-decoration: none;
+}
+.plainnewslink {
+    text-align: left;
+    margin-top: 1%;
+    font-size: 1.5vw;
+    color: black;
 }
 .space4 {
     margin: 0%;
