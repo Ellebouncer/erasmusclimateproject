@@ -1,62 +1,184 @@
 @media (max-width: 1200px) {
-
-}
-@media (max-width: 800px) {
+    .title {
+        font-size: 4vw;
+    }
+    .menualts {
+        font-size: 2.25vw;
+    }
     .newsheader {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .newstext {
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
     .newslink {
-        font-size: 1.5vw;
+        font-size: 2vw;
+    }
+    .plainnewslink {
+        font-size: 2vw;
+    }
+}
+@media (max-width: 800px) {
+    .title {
+        font-size: 4vw;
+    }
+    .menualts {
+        font-size: 2.25vw;
+    }
+    .newsheader {
+        font-size: 3.5vw;
+    }
+    .newstext {
+        font-size: 2vw;
+    }
+    .newslink {
+        font-size: 2vw;
+    }
+    .plainnewslink {
+        font-size: 2vw;
     }
     
 }
-@media (max-width: 460px) {
-    .footer {
-        margin-top: 10vh;
+@media (max-width: 600px) {
+    .title {
+        font-size: 4.75vw;
     }
     .menualts {
-        font-size: 1.75vw;
-    }
-    .newsheader {
         font-size: 3vw;
     }
+    .newsheader {
+        font-size: 4vw;
+    }
     .newstext {
-        font-size: 1.5vw;
+        font-size: 2.5vw;
     }
     .newslink {
-        font-size: 1.5vw;
+        font-size: 2.5vw;
+    }
+    .plainnewslink {
+        font-size: 2.5vw;
     }
 }
 @media (max-width: 400px) {
-    .footer {
-        margin-top: 25vh;
+    .title {
+        font-size: 4.75vw;
+    }
+    .menualts {
+        font-size: 3vw;
+    }
+    .newsheader {
+        font-size: 4.25vw;
+    }
+    .newstext {
+        font-size: 2.75vw;
+    }
+    .newslink {
+        font-size: 2.75vw;
+    }
+    .plainnewslink {
+        font-size: 2.75vw;
     }
 }
 
 @media (max-width: 350px) {
-    .footer {
-        margin-top: 40vh;
+    .title {
+        font-size: 4.75vw;
+    }
+    .menualts {
+        font-size: 3vw;
+    }
+    .newsheader {
+        font-size: 4.5vw;
+    }
+    .newstext {
+        font-size: 3vw;
+    }
+    .newslink {
+        font-size: 3vw;
+    }
+    .plainnewslink {
+        font-size: 3vw;
     }
 }
 
 
-@media (min-height: 730px) {
-    .footer {
-        margin-top: 40vh;
+@media (max-height: 700px) and (max-width: 500px) {
+    .title {
+        font-size: 4.75vw;
     }
     .menualts {
-        font-size: 1.75vw;
-    }
-    .newsheader {
         font-size: 3vw;
     }
+    .newsheader {
+        font-size: 4.5vw;
+    }
     .newstext {
-        font-size: 1.5vw;
+        font-size: 3vw;
     }
     .newslink {
-        font-size: 1.5vw;
+        font-size: 3vw;
+    }
+    .plainnewslink {
+        font-size: 3vw;
+    }
+}
+@media (max-height: 750px) and (max-width: 500px) {
+    .title {
+        font-size: 4.75vw;
+    }
+    .menualts {
+        font-size: 3vw;
+    }
+    .newsheader {
+        font-size: 4.5vw;
+    }
+    .newstext {
+        font-size: 3vw;
+    }
+    .newslink {
+        font-size: 3vw;
+    }
+    .plainnewslink {
+        font-size: 3vw;
+    }
+}
+@media (max-height: 850px) and (max-width: 500px) {
+    .title {
+        font-size: 4.75vw;
+    }
+    .menualts {
+        font-size: 3vw;
+    }
+    .newsheader {
+        font-size: 4.5vw;
+    }
+    .newstext {
+        font-size: 3vw;
+    }
+    .newslink {
+        font-size: 3vw;
+    }
+    .plainnewslink {
+        font-size: 3vw;
+    }
+}
+@media (max-height: 1000px) and (max-width: 500px) {
+    .title {
+        font-size: 5.5vw;
+    }
+    .menualts {
+        font-size: 3.25vw;
+    }
+    .newsheader {
+        font-size: 4vw;
+    }
+    .newstext {
+        font-size: 3vw;
+    }
+    .newslink {
+        font-size: 3vw;
+    }
+    .plainnewslink {
+        font-size: 3vw;
     }
 }
