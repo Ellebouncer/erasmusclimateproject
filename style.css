@@ -71,6 +71,11 @@
     padding-bottom: 2%;
     float: left;
 }
+#newsimageright {
+    padding-right: 0%;
+    padding-left: 2%;
+    float: right;
+}
 .newscontent {
     overflow: auto;
     margin: 0%;
