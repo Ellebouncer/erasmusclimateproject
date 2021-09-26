@@ -22,7 +22,7 @@
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 20vmin repeat(8, calc((100vh - 20vmin)/8)) 20vmin;
+    grid-template-rows: 20vmin repeat(7, calc((100vh - 30vmin)/7)) 10vmin 20vmin;
 
     background-image: url(./triangelbackdroppmodyfied.jpg);
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@
 
 .contentwrappers1 {
     grid-row-start: 2;
-    grid-row-end: 10;
+    grid-row-end: 9;
     grid-column-start: 1;
     grid-column-end: 13;
     margin: auto;
@@ -141,6 +141,17 @@
     font-family: 'Lato', sans-serif;
     color: #f0f4f8;
 }
+
+.contentlink {
+    margin: 1.5vmin 0 0 0;
+    text-decoration: none;
+    font-size: 3.5vmin;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #f0f4f8;
+}
+
 
 .imagewrappers2 {
     grid-column-start: 9;
@@ -260,6 +271,10 @@
 
 
 @media only screen and (max-width: 1200px) {
+
+    .topsection {
+        grid-template-rows: 20vmin repeat(7, calc((100vh - 40vmin)/7)) 20vmin 20vmin;
+    }
 
     .contentwrappers2 {
         grid-column-start: 1;
