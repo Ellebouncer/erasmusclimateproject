@@ -151,7 +151,7 @@
 }
 
 .contentimage {
-    width: 20vw;
+    width: 35vw;
 }
 
 .wave2 {
@@ -278,7 +278,4 @@
         padding-top: 1vmin;
     }
 
-    .contentimage {
-        width: 35vw;
-    }
 }
