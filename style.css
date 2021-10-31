@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://api.fontshare.com/css?f[]=chillax@200,300,400,500,600,700,1&display=swap');
 
 
 .body {
@@ -10,7 +11,7 @@
 .sitewrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: calc(100vh + 20vmin) minmax(75vh, auto) 20vmin 75vh;
+    grid-template-rows: calc(100vh + 20vmin) repeat(3, minmax(75vh, auto) 20vmin);
     box-sizing: border-box;
 }
 
@@ -94,11 +95,7 @@
     margin-top: 6vmin;
 }
 
-.wave1 {
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 10;
-    grid-row-end: 11;
+.wave {
     height: 20vmin;
     width: 100%;
 }
@@ -127,7 +124,7 @@
 
 .contentheader {
     margin: 0%;
-    font-size: 10vmin;
+    font-size: 8vmin;
     text-align: center;
     font-family: 'Lato', sans-serif;
     color: #f0f4f8;
@@ -136,7 +133,7 @@
 
 .contenttext {
     margin: 3vmin 0% 0% 0%;
-    font-size: 3.75vmin;
+    font-size: 3.25vmin;
     text-align: center;
     font-family: 'Lato', sans-serif;
     color: #f0f4f8;
@@ -145,7 +142,7 @@
 .contentlink {
     margin: 1.5vmin 0 0 0;
     text-decoration: none;
-    font-size: 3.5vmin;
+    font-size: 3vmin;
     font-weight: bold;
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -165,13 +162,6 @@
     width: 35vmin;
 }
 
-.wave2 {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    height: 20vmin;
-    width: 100%;
-}
-
 
 
 .section3 {
@@ -188,6 +178,17 @@
 
 
 
+.section4 {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: #f4d042;
+    padding: 6vmin 0 6vmin 0;
+    margin: -1.5px 0 -1.5px 0;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
 
 
 
