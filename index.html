@@ -4,16 +4,18 @@
     <head>
         <title>Erasmus Climate Project</title>
         <link type="text/css" rel="stylesheet" href="./style.css">
-        <link rel="icon" type="image/png" href="./logofavicon.png">
+        <link type="image/png" rel="icon" href="./logofavicon.png">
+        <script type="text/javascript" src="menuscript.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     </head>
-    
+
     <body class="body">
+
         <div class="sitewrapper">
 
             <div class="topsection">
 
-                <div class="menu">
+                <div class="menu" id="menu">
                     <a href="https://www.climate.eu.org" class="logotop">
                         <img src="./logonr4whitettrgt.png" class="logotop">
                     </a>
@@ -23,9 +25,21 @@
                         <a class="menualts" href="./participants.html">Participants</a>
                         <a class="menualts" href="./resources.html">Resources</a>
                     </div>
+                    <div class="menualtsicon">
+                        <a onclick="menuIconClick()" href="#">
+                        <img class="menualtsicon" id="menuicon" src="./menuicon.png">
+                        </a>
+                    </div>
                 </div>
 
-                <div class="contentwrappers1">
+                <div class="menualtsmobile" id="mam">
+                    <a class="mamt" id="mamt1" href="https://www.climate.eu.org">Home</a></br>
+                    <a class="mamt" id="mamt2" href="./about.html">About</a></br>
+                    <a class="mamt" id="mamt3" href="./participants.html">Participants</a></br>
+                    <a class="mamt" id="mamt4" href="./resources.html">Resources</a></br>
+                </div>
+
+                <div class="contentwrappers1" id="mainTitle">
                     <div class="title">
                         <p class="title">The</p>
                         <p class="title">Climate</p>
