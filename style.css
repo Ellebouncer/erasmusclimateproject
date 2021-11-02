@@ -25,9 +25,10 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 20vmin repeat(7, calc((100vh - 30vmin)/7)) 10vmin 20vmin;
 
-    background-image: url(./triangelbackdroppmodyfied.jpg);
+    background-image: url(./earthbackground1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -46,13 +47,18 @@
 }
 
 .logotop {
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 1;
-
     height: 10vmin;
     margin: auto auto auto 1.5vmin;
+
+    position: absolute;
 }
+
+.menualtscontainer {
+    margin: auto 0 auto auto;
+
+    position: absolute;
+}
+
 
 .menualts {
     text-align: right;
@@ -61,26 +67,41 @@
     color: #f0f4f8;
     text-decoration: none;
 
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 1;
-
-    margin: auto 1.5vmin auto auto;
-    padding-right: 1.5vw;
+    margin: auto 1vmin auto auto;
+    padding-right: 0.5vw;
 }
 
 .menualtsicon {
     height: 5.5vmin;
-    margin: auto;
+    margin: auto 15vmin auto auto;
     display: none;
 
-    grid-column-start: 11;
-    grid-column-end: 13;
+    position: absolute;
+}
+
+#menuimageleft {
     grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 100%;
+    margin: 0 auto auto 0;
+
+    position: relative;
+}
+
+#menuimageright {
+    grid-row-start: 1;
+    grid-column-start: 8;
+    grid-column-end: 13;
+    width: 100%;
+    margin: 0 0 auto auto;
+
+    position: relative;
 }
 
 .menualtsmobile {
-    background: #48484857;
+    background: #48484824;
+    background-size: cover;
 
     grid-column-start: 1;
     grid-column-end: 13;
@@ -149,6 +170,15 @@
     width: 55vw;
     margin: auto;
     margin-top: 6vmin;
+}
+
+#toppbackgroundaddonbelow {
+    grid-row-start: 7;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    width: 100%;
+    margin: auto 0 0 0;
 }
 
 .wave {
@@ -327,11 +357,14 @@
 
 
 
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1600px) and (min-height: 725px) {
 
     .topsection {
-        grid-template-rows: 20vmin repeat(8, calc(calc(100vh - 20vmin)/8)) 20vmin;
+        grid-template-rows: 10vmin repeat(7, calc(calc(100vh - 20vmin)/7)) 10 20vmin;
+    }
+
+    .logotop {
+        margin-top: 1vmin;
     }
 
     .menualts {
@@ -340,14 +373,52 @@
 
     .menualtsicon {
         display: block;
+        margin-top: 2vmin;
     }
 
     .contentwrappers1 {
         display: block;
     }
 
+    #menuimageright {
+        grid-column-start: 10;
+    }
+
+}
 
 
+
+
+@media only screen and (max-width: 1200px) {
+
+    .topsection {
+        grid-template-rows: 10vmin repeat(7, calc(calc(100vh - 20vmin)/7)) 10 20vmin;
+    }
+
+    .logotop {
+        margin-top: 1vmin;
+    }
+
+    .menualts {
+        display: none;
+    }
+
+    .menualtsicon {
+        display: block;
+        margin-top: 2vmin;
+    }
+
+    #menuimageright {
+        grid-column-start: 10;
+    }
+
+    .contentwrappers1 {
+        display: block;
+    }
+
+    .logotop {
+        height: 7.5vmin;
+    }
 
     .contentwrappers2 {
         grid-column-start: 1;
@@ -366,4 +437,38 @@
         padding-top: 1vmin;
     }
 
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    #menuimageleft {
+        display: none;
+    }
+
+    #menuimageright {
+        display: none;
+    }
+
+    #toppbackgroundaddonbelow {
+        display: none;
+    }
+
+    .topsection {
+        grid-template-rows: 12.5vmin repeat(7, calc(calc(100vh - 25vmin)/7)) 12.5vmin 20vmin;
+    }
+
+    .menu {
+        background-color: #98a62d;
+    }
+
+    .logotop {
+        margin-top: auto;
+        height: 10vmin;
+    }
+
+    .menualtsicon {
+        margin-top: auto;
+    }
 }

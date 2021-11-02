@@ -3,6 +3,9 @@
 function menuIconClick() {
     changeVisibility("mainTitle", "block");
     changeVisibility("mam", "grid");
+    //changeVisibility("menuimageleft", "block");
+    //changeVisibility("menuimageright", "block");
+    changeVisibility("toppbackgroundaddonbelow", "block");
     changeIcon();
     changeMenuBackground();
 }
@@ -25,25 +28,33 @@ function changeIcon() {
 
     if (elemSrc.indexOf('menuicon.png') >= 0) {
         elem.src = "./menucloseicon.png";
+        document.body.style.overflowY = "hidden";
     }
     else {
         elem.src = "./menuicon.png";
+        document.body.style.overflowY = "auto";
     }
 }
 
 function changeMenuBackground() {
     let elem = document.getElementById("menu");
     let elemStyle = window.getComputedStyle(elem);
+    let micopic = document.getElementById("menuicon").src;
+    let viewportwidth = document.documentElement.clientWidth;
 
     var noColour = "rgba(0, 0, 0, 0)";
-    var transparentGrey = "#48484857";
+    var transparentGrey = "#48484824";
 
-    if (elemStyle.getPropertyValue('background-color') == noColour) {
-        elem.style.background = transparentGrey;
-        document.body.style.overflow = "hidden";
+
+    if (viewportwidth > 1000) {
+        if (micopic.indexOf('menucloseicon.png') >= 0) {
+            elem.style.background = transparentGrey;
+        }
+        else {
+            elem.style.background = noColour;
+        }
     }
     else {
-        elem.style.background = noColour;
-        document.body.style.overflow = "auto";
+        elem.style.background = "#98a62d";
     }
 }
