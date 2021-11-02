@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://api.fontshare.com/css?f[]=chillax@200,300,400,500,600,700,1&display=swap');
+
+
+.body {
+    margin: 0%;
+}
+
+.sitewrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: calc(100vh + 20vmin) repeat(3, minmax(75vh, auto) 20vmin);
+    box-sizing: border-box;
+}
+
+
+
+.topsection {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 20vmin repeat(7, calc((100vh - 30vmin)/7)) 10vmin 20vmin;
+
+    background-image: url(./earthbackground1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.menu {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+
+    background-color: #0000;
+}
+
+.logotop {
+    height: 10vmin;
+    margin: 2vmin auto auto 1.5vmin;
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    z-index: 1;
+}
+
+.menualtscontainer {
+    margin: 6.25vmin 0 auto auto;
+
+    grid-row-start: 1;
+    grid-column-start: 8;
+    grid-column-end: 13;
+
+    z-index: 1;
+}
+
+
+.menualts {
+    text-align: right;
+    font-size: 3.5vmin;
+    font-family: 'Lato', sans-serif;
+    color: #f0f4f8;
+    text-decoration: none;
+
+    margin: auto 1vmin auto auto;
+    padding-right: 0.5vw;
+}
+
+.menualtsicon {
+    height: 5.5vmin;
+    margin: 2vmin auto auto auto;
+    display: none;
+
+    grid-row-start: 1;
+    grid-column-start: 11;
+    grid-column-end: 13;
+
+    z-index: 1;
+}
+
+#menuimageleft {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 100%;
+    margin: 0 auto auto 0;
+
+    position: relative;
+}
+
+#menuimageright {
+    grid-row-start: 1;
+    grid-column-start: 8;
+    grid-column-end: 13;
+    width: 100%;
+    margin: 0 0 auto auto;
+
+    position: relative;
+}
+
+.menualtsmobile {
+    background: #4848484a;
+    background-size: cover;
+
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 10;
+    
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto repeat(4, 14vmin) auto;
+
+    display: none;
+
+    margin: 0;
+}
+
+.mamt {
+    text-align: center;
+    font-size: 8vmin;
+    font-family: 'Lato', sans-serif;
+    color: #f0f4f8;
+    text-decoration: none;
+
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+#mamt1 {
+    grid-row-start: 2;
+}
+
+#mamt2 {
+    grid-row-start: 3;
+}
+
+#mamt3 {
+    grid-row-start: 4;
+}
+
+#mamt4 {
+    grid-row-start: 5;
+}
+
+
+
+
+.contentwrappers1 {
+    grid-row-start: 2;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #f0f4f8;
+    font-size: 15vmin;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: -2vmin;
+}
+
+.line {
+    background-color: #f0f4f8;
+    height: 3px;
+    width: 55vw;
+    margin: auto;
+    margin-top: 6vmin;
+}
+
+#toppbackgroundaddonbelow {
+    grid-row-start: 7;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    width: 100%;
+    margin: auto 0 0 0;
+}
+
+.wave {
+    height: 20vmin;
+    width: 100%;
+}
+
+
+
+
+.section2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #e6964f;
+    padding: 6vmin 0 6vmin 0;
+    margin: -1.5px 0 -1.5px 0;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.contentwrappers2 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 13;
+    margin: auto 5vmin auto 8vmin;
+}
+
+.contentheader {
+    margin: 0%;
+    font-size: 8vmin;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #f0f4f8;
+    font-weight: bold;
+}
+
+.contenttext {
+    margin: 3vmin 0% 0% 0%;
+    font-size: 3.25vmin;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #f0f4f8;
+}
+
+.contentlink {
+    margin: 1.5vmin 0 0 0;
+    text-decoration: none;
+    font-size: 3vmin;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #f0f4f8;
+}
+
+
+.imagewrappers2 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 13;
+    margin: auto;
+}
+
+.contentimage {
+    width: 35vmin;
+}
+
+
+
+.section3 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #2caaa8;
+    padding: 6vmin 0 6vmin 0;
+    margin: -1.5px 0 -1.5px 0;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+
+
+.section4 {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: #f4d042;
+    padding: 6vmin 0 6vmin 0;
+    margin: -1.5px 0 -1.5px 0;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: #242424;
+
+    margin-top: 3vh;
+
+    display: grid;
+
+    grid-template-columns: 10% repeat(6,1fr) 10%;
+    grid-template-rows: 2vw 5vw 1vw 2vw 1vw;
+    gap: 1.5vw;
+    padding: 2.5vw;
+    box-sizing: border-box;
+}
+
+.footerh1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.25vw;
+    margin: 0%;
+    color: #f0f4f8;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.footerh2 {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    font-size: 1.75vw;
+    font-weight: bold;
+    margin: 0%;
+    color: #f0f4f8;
+
+    grid-row-start: 4;
+    grid-column-end: span 2;
+}
+
+.footertext {
+    text-align: center;
+    margin: 0%;
+    color: #f0f4f8;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: 'JetBrains Mono', monospace;
+    grid-row-start: 5;
+    grid-column-end: span 2;
+}
+
+.erasmusfooterpic {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    height: 100%;
+}
+
+.creditimage {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 8;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1600px) and (min-height: 725px) {
+
+    .topsection {
+        grid-template-rows: 12.5vmin repeat(7, calc(calc(100vh - 25vmin)/7)) 12.5vmin 20vmin;
+    }
+
+    .logotop {
+        margin-top: 1vmin;
+    }
+
+    .menualts {
+        display: none;
+    }
+
+    .menualtsicon {
+        display: block;
+    }
+
+    .contentwrappers1 {
+        display: block;
+    }
+
+    #menuimageright {
+        grid-column-start: 10;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .topsection {
+        grid-template-rows: 12.5vmin repeat(7, calc(calc(100vh - 25vmin)/7)) 12.5vmin 20vmin;
+    }
+
+    .logotop {
+        margin-top: 1vmin;
+    }
+
+    .menualts {
+        display: none;
+    }
+
+    .menualtsicon {
+        display: block;
+    }
+
+    #menuimageright {
+        grid-column-start: 10;
+    }
+
+    .contentwrappers1 {
+        display: block;
+    }
+
+    .logotop {
+        height: 7.5vmin;
+    }
+
+    .contentwrappers2 {
+        grid-column-start: 1;
+        grid-column-end: 13;
+        grid-row-start: 1;
+        grid-row-end: 7;
+        margin: auto 5vmin auto 5vmin;
+    }
+
+    .imagewrappers2 {
+        grid-column-start: 1;
+        grid-column-end: 13;
+        grid-row-start: 7;
+        grid-row-end: 13;
+        margin: auto;
+        padding-top: 1vmin;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    #menuimageleft {
+        display: none;
+    }
+
+    #menuimageright {
+        display: none;
+    }
+
+    #toppbackgroundaddonbelow {
+        display: none;
+    }
+
+    .topsection {
+        grid-template-rows: 12.5vmin repeat(7, calc(calc(100vh - 25vmin)/7)) 12.5vmin 20vmin;
+    }
+
+    .menu {
+        background-color: #497321;
+    }
+
+    .logotop {
+        margin-top: auto;
+        height: 10vmin;
+    }
+
+    .menualtsicon {
+        margin: auto;
+    }
+}
