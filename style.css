@@ -373,7 +373,7 @@
 
     .menualtsicon {
         display: block;
-        margin-top: 2vmin;
+        margin: 2vmin 15vmin auto auto;
     }
 
     .contentwrappers1 {
@@ -405,7 +405,7 @@
 
     .menualtsicon {
         display: block;
-        margin-top: 2vmin;
+        margin: 2vmin 15vmin auto auto;
     }
 
     #menuimageright {
@@ -469,6 +469,6 @@
     }
 
     .menualtsicon {
-        margin-top: auto;
+        margin: auto 15vmin auto auto;
     }
 }
