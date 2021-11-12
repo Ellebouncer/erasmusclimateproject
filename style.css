@@ -170,7 +170,7 @@
     text-align: center;
     font-family: 'Lato', sans-serif;
     color: #f0f4f8;
-    font-size: 15vmin;
+    font-size: 12.5vmin;
     font-weight: bold;
     margin: 0;
     margin-bottom: -2vmin;
@@ -258,7 +258,7 @@
 }
 
 .contentimage {
-    width: 35vmin;
+    width: 45vmin;
 }
 
 
@@ -470,7 +470,7 @@
     }
 
     .menu {
-        background-color: #497321;
+        background-color: #7fa75a;
     }
 
     .logotop {

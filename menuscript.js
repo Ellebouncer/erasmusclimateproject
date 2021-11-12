@@ -55,6 +55,6 @@ function changeMenuBackground() {
         }
     }
     else {
-        elem.style.background = "#497321";
+        elem.style.background = "#7fa75a";
     }
 }
