@@ -58,3 +58,62 @@ function changeMenuBackground() {
         elem.style.background = "#7fa75a";
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.onload = function(){
+    var ELASCLICKED = 0;
+    document.querySelector(".footerh3").onclick = function() {ELASCLICK()};
+
+    function ELASCLICK() {
+        let ELAS = document.querySelector(".footerh3");
+        let ELASAS = document.querySelector(".footerh2");
+        ELASCLICKED += 1;
+        if (ELASCLICKED == 20) {
+            ELAS.textContent = "David Esberg";
+            ELASAS.textContent = "Shoutout to:";
+        }
+        if (ELASCLICKED == 25) {
+            ELAS.textContent = "Elias Eriksson";
+            ELASAS.textContent = "Created by:";
+        }
+        if (ELASCLICKED == 100) {
+            ELAS.textContent = "Ellebouncer#0591";
+            ELASAS.textContent = "Created by:";
+        }
+    }
+};
