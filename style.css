@@ -11,7 +11,7 @@
 .sitewrapperindex {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: calc(100vh + 20vmin) repeat(3, minmax(75vh, auto) 20vmin) auto;
+    grid-template-rows: calc(100vh + 20vmin) repeat(2, minmax(75vh, auto) 20vmin) minmax(75vh, auto) auto auto;
     box-sizing: border-box;
 }
 
