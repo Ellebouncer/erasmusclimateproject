@@ -46,7 +46,7 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 20vmin repeat(7, calc((100vh - 30vmin)/7)) 10vmin 20vmin;
 
-    background-image: url(./Files/earthbackground1.jpg);
+    background-image: url(./earthbackground1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

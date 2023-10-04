@@ -13,14 +13,14 @@ function expandFiles(ElemID, trigger) {
     if (elem.hidden === true)
     {
         elem.hidden = false;
-        img.src = "./Files/retractArrow.png"
+        img.src = "./retractArrow.png"
         img.style.height = "auto";
         img.style.width ="1rem";
     }
     else
     {
         elem.hidden = true;
-        img.src = "./Files/expandArrow.png"
+        img.src = "./expandArrow.png"
         img.style.height = "1rem";
         img.style.width ="auto";
     }
@@ -43,11 +43,11 @@ function changeIcon() {
     var elemSrc = elem.src;
 
     if (elemSrc.indexOf('menuicon.png') >= 0) {
-        elem.src = "./Files/menucloseicon.png";
+        elem.src = "./menucloseicon.png";
         document.body.style.overflowY = "hidden";
     }
     else {
-        elem.src = "./Files/menuicon.png";
+        elem.src = "./menuicon.png";
         document.body.style.overflowY = "auto";
     }
 }
