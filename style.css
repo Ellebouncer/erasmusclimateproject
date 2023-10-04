@@ -11,7 +11,7 @@
 .sitewrapperindex {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: calc(100vh + 20vmin) repeat(3, minmax(75vh, auto) 20vmin) auto;
+    grid-template-rows: calc(100vh + 20vmin) repeat(4, minmax(75vh, auto) 20vmin) auto;
     box-sizing: border-box;
 }
 
@@ -46,7 +46,7 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 20vmin repeat(7, calc((100vh - 30vmin)/7)) 10vmin 20vmin;
 
-    background-image: url(./earthbackground1.jpg);
+    background-image: url(./Files/earthbackground1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -200,7 +200,7 @@
 .line {
     background-color: #f0f4f8;
     height: 3px;
-    width: 55vw;
+    width: 25vw;
     margin: auto;
     margin-top: 6vmin;
 }
@@ -384,9 +384,8 @@
 .footerimage {
     grid-row: 3;
     margin: auto;
-    margin-top: 2vmin;
     max-width: 35vw;
-    max-height: 15vh;
+    max-height: 10vh;
     height: auto;
     width: auto;
 }
